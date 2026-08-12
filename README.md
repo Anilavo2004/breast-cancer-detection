@@ -88,7 +88,7 @@ larger, more irregularly-shaped (concave) nuclei are associated with malignant t
 
 Python · Scikit-learn · SHAP · LIME · Matplotlib · Seaborn · Pandas · NumPy
 
-## Resume Bullet Points
+## Bullet Points
 
 - Developed a Logistic Regression model to classify breast tumors as Benign or Malignant
   using the Scikit-learn Breast Cancer dataset.
