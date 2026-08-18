@@ -40,21 +40,6 @@ breast_cancer_project/
 └── README.md
 ```
 
-## How to Run
-
-### Option A — Notebook (recommended for Kaggle / portfolio)
-1. Upload `notebooks/breast_cancer_detection.ipynb` to [Kaggle](https://www.kaggle.com/code) (SHAP & LIME are pre-installed there) or open locally in Jupyter.
-2. Run all cells top to bottom.
-
-### Option B — Scripts (locally)
-```bash
-pip install -r requirements.txt
-cd src
-python main.py
-```
-This runs the full pipeline: load data → EDA → preprocess → train → evaluate → SHAP → LIME,
-saving every figure to `outputs/figures/` and the trained model to `models/`.
-
 ## Approach
 
 1. **Data**: 569 samples, 30 numeric features derived from digitized images of a fine
